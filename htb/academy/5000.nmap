@@ -1,0 +1,15 @@
+# Nmap 7.91 scan initiated Tue Dec  1 13:56:28 2020 as: nmap -sV -T4 -vv -oN 5000 --top-ports 5000 academy.htb
+Increasing send delay for 10.10.10.215 from 0 to 5 due to 151 out of 377 dropped probes since last increase.
+Nmap scan report for academy.htb (10.10.10.215)
+Host is up, received syn-ack (0.24s latency).
+Scanned at 2020-12-01 13:56:29 EST for 109s
+Not shown: 4998 closed ports
+Reason: 4998 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    syn-ack Apache httpd 2.4.41 ((Ubuntu))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec  1 13:58:18 2020 -- 1 IP address (1 host up) scanned in 110.84 seconds
