@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Tue Dec 15 13:46:30 2020 as: nmap -vvv -p 22,5080 -sV -oN portscan 10.129.29.192
+Nmap scan report for ready.htb (10.129.29.192)
+Host is up, received conn-refused (0.16s latency).
+Scanned at 2020-12-15 13:46:30 IST for 16s
+
+PORT     STATE SERVICE REASON  VERSION
+22/tcp   open  ssh     syn-ack OpenSSH 8.2p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+5080/tcp open  http    syn-ack nginx
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec 15 13:46:46 2020 -- 1 IP address (1 host up) scanned in 16.30 seconds
